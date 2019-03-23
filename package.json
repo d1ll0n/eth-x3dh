@@ -1,0 +1,20 @@
+{
+  "name": "eth-x3dh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "X3DH Protocol methods using Ethereum addresses as keys",
+  "homepage": "https://github.com/d1ll0n/eth-x3dh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d1ll0n/eth-x3dh"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eccrypto": "^1.1.0",
+    "eth-crypto": "^1.3.3"
+  }
+}
