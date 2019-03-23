@@ -30,10 +30,10 @@ async function X3DH_Receiving(idKeyPrivate, preKeyPrivate, idKeyPublic, ephKeyPu
   return hkdf(DH.join(''))
 }
 
-const AEAD = (idKey1, idKey2) => idKey1 + idKey2
+const CREATE_AD = (idKey1, idKey2) => idKey1 + idKey2
 
 module.exports = {
   X3DH_Sending,
   X3DH_Receiving,
-  AEAD
+  CREATE_AD
 }
